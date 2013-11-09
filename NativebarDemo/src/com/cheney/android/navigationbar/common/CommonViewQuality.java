@@ -1,6 +1,5 @@
-package com.cheney.android.widget.impl;
+package com.cheney.android.navigationbar.common;
 
-import com.cheney.android.common.ViewSizeAndPosition;
 
 public abstract interface CommonViewQuality {
 

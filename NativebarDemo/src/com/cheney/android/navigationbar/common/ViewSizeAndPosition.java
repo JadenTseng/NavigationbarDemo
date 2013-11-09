@@ -1,4 +1,4 @@
-package com.cheney.android.common;
+package com.cheney.android.navigationbar.common;
 
 public class ViewSizeAndPosition {
 

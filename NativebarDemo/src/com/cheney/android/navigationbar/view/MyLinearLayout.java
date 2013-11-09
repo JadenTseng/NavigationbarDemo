@@ -1,19 +1,15 @@
-package com.cheney.android.widget;
+package com.cheney.android.navigationbar.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
-import com.cheney.android.common.ViewSizeAndPosition;
-import com.cheney.android.widget.impl.CommonViewQuality;
+import com.cheney.android.navigationbar.common.CommonViewQuality;
+import com.cheney.android.navigationbar.common.ViewSizeAndPosition;
 
-public class MyImageButton extends ImageButton implements CommonViewQuality {
-    public MyImageButton(Context context, AttributeSet attrs) {
+public abstract class MyLinearLayout extends LinearLayout implements CommonViewQuality {
+    public MyLinearLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
-    }
-
-    public MyImageButton(Context context) {
-        super(context);
     }
 
     public ViewSizeAndPosition getViewSizeAndPosition() {

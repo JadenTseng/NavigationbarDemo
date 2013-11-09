@@ -1,4 +1,4 @@
-package com.cheney.android.nativebar;
+package com.cheney.android.navigationbar;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.cheney.android.widget.navigation.RollNavigationBar;
-import com.cheney.android.widget.navigation.adapter.RollNavigationBarAdapter;
+import com.cheney.android.navigationbar.adapter.RollNavigationBarAdapter;
+import com.cheney.android.navigationbar.view.RollNavigationBar;
 
 /**
  * 

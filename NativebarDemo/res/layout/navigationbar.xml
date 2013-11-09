@@ -9,14 +9,15 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
-        <com.cheney.android.widget.navigation.RollNavigationBar
+        
+        <com.cheney.android.navigationbar.view.RollNavigationBar
             android:id="@+id/rollNavigationBar"
             android:layout_width="fill_parent"
             android:layout_height="50dip"
             android:background="@drawable/i_shade"
             android:orientation="horizontal" 
             android:layout_alignParentBottom="true">
-        </com.cheney.android.widget.navigation.RollNavigationBar>
+        </com.cheney.android.navigationbar.view.RollNavigationBar>
     </RelativeLayout>
 
 </LinearLayout>

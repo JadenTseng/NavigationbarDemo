@@ -1,4 +1,4 @@
-package com.cheney.android.widget.navigation;
+package com.cheney.android.navigationbar.view;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,9 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.cheney.android.common.T;
-import com.cheney.android.common.ViewSizeAndPosition;
-import com.cheney.android.widget.MyLinearLayout;
+import com.cheney.android.navigationbar.common.T;
+import com.cheney.android.navigationbar.common.ViewSizeAndPosition;
 
 public class PressNavigationBar extends MyLinearLayout {
     private static final String TAG = PressNavigationBar.class.getSimpleName();

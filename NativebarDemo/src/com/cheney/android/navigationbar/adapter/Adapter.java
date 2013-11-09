@@ -1,4 +1,4 @@
-package com.cheney.android.impl;
+package com.cheney.android.navigationbar.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

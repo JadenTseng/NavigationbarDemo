@@ -1,4 +1,4 @@
-package com.cheney.android.widget.navigation;
+package com.cheney.android.navigationbar.view;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -14,10 +14,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.cheney.android.common.T;
-import com.cheney.android.common.ViewSizeAndPosition;
-import com.cheney.android.widget.MyLinearLayout;
-import com.cheney.android.widget.navigation.adapter.RollNavigationBarAdapter;
+import com.cheney.android.navigationbar.adapter.RollNavigationBarAdapter;
+import com.cheney.android.navigationbar.common.T;
+import com.cheney.android.navigationbar.common.ViewSizeAndPosition;
 
 public class RollNavigationBar extends MyLinearLayout {
     private static final String TAG = RollNavigationBar.class.getSimpleName();

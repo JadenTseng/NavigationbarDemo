@@ -1,4 +1,4 @@
-package com.cheney.android.common;
+package com.cheney.android.navigationbar.common;
 
 import android.content.Context;
 import android.graphics.Point;
