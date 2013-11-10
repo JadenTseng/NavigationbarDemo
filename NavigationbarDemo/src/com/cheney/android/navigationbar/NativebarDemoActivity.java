@@ -87,10 +87,6 @@ public class NativebarDemoActivity extends Activity {
 
     /**
      * µ¼º½À¸À©Õ¹
-     * 
-     * @author w.song
-     * @version 1.0.1
-     * @date 2012-4-22
      */
     class MyNavigationBarAdapter extends RollNavigationBarAdapter {
         private List<Map<String, Object>> list;
